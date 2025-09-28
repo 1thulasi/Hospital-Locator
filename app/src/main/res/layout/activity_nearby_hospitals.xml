@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/doc">
+
+    <TextView
+        android:id="@+id/tvHospitalsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nearby Hospitals"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="16dp" />
+
+
+
+    <ListView
+        android:id="@+id/hospitalsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"/>
+
+</LinearLayout>

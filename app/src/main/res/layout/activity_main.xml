@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/hh">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Hospital Tracker"
+        android:textColor="#651FFF"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/getLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Location"
+        android:backgroundTint="#651FFF"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/addr"
+            android:layout_width="234dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="50dp"
+            android:text=""
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/getNearbyHospitals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Nearby Hospitals"
+        android:backgroundTint="#651FFF"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</LinearLayout>
